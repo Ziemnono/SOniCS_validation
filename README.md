@@ -5,7 +5,9 @@ In this work, we describe the SOniCS (SOFA + FEniCS) plugin to help develop intu
 
 <h2>FEniCSx</h2>
 This paper relies on new development of the FEniCS project called FEniCSx, more information can be found on the GitHub repository: https://github.com/FEniCS or the website https://fenicsproject.org/
-The easiest way is to run Docker using ```console
+
+The easiest way is to run Docker using 
+```console
 docker run -ti -v $(pwd):/root/shared dolfinx/dolfinx:latest
 ```
 
