@@ -4,9 +4,11 @@ import meshio
 import numpy as np
 
 ELEMENT_TYPE = "Tetrahedron"
+# ELEMENT_TYPE = "Hexahedron"
 ELEMENT_APPROXIMATION_DEGREE = 1
-# MATERIAL_MODEL = "SaintVenantKirchhoff"
-MATERIAL_MODEL = "NeoHookean"
+# ELEMENT_APPROXIMATION_DEGREE = 2
+MATERIAL_MODEL = "SaintVenantKirchhoff"
+# MATERIAL_MODEL = "NeoHookean"
 FORCES = [0, -2000, 0]
 # TODO improve the manual permutation for matching the redefinition of the hexahedron
 
